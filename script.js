@@ -1,3 +1,18 @@
+
+ // Function to display the alert
+        function showAlert() {
+            document.getElementById('alertOverlay').style.display = 'block';
+        }
+
+        // Function to close the alert
+        function closeAlert() {
+            document.getElementById('alertOverlay').style.display = 'none';
+        }
+
+        // Trigger showAlert when the page is loaded
+        window.onload = function() {
+            showAlert();
+        };
 // active hamburger menu 
 let menuIcon = document.querySelector(".menu-icon");
 let navlist = document.querySelector(".navlist")
