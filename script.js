@@ -13,6 +13,7 @@
         window.onload = function() {
             showAlert();
         };
+consol.log(alert("Thank you for opening my personal portfolio));
 // active hamburger menu 
 let menuIcon = document.querySelector(".menu-icon");
 let navlist = document.querySelector(".navlist")
