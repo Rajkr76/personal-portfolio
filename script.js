@@ -201,7 +201,7 @@ function sendmail(){
         subject:document.getElementById("Subject").value,
         comments:document.getElementById("comments").value,
     }
-    emailjs.send("service_co43sde","template_6a80g0i",parms).then(alert("Email sent succesfully! Thank you for message."))
+    emailjs.send("#","#",parms).then(alert("Email sent succesfully! Thank you for message."))
 }
 
 
